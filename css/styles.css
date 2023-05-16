@@ -1,0 +1,229 @@
+body {
+    background-color: rgb(16, 55, 106);
+    width: 100vw;
+}
+
+/* NAVBAR */
+
+.navegar {
+    border-bottom: 2px solid;
+    /* background-color: rgb(16, 55, 106); */
+    background-color: rgb(22, 28, 32);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navegar button {
+    border: 2px solid;
+}
+
+.nombre {
+    color: rgb(255, 255, 255);
+}
+
+.navegar ul li a {
+    color: rgb(189, 188, 188);
+}
+
+.navegar ul li a:hover {
+    color: white;
+}
+
+/* YO */
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.yo {
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.yo h1 {
+    margin-top: 20px;
+    color: black;
+}
+
+.yo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 100%;
+    width: 300px;
+    height: 350px;
+}
+
+.yo p {
+    font-size: 14pt;
+    color: black;
+}
+
+/* PORTFOLIO */
+
+.contenedor-portfolio {
+    background-color: rgb(16, 55, 106);
+    padding: 60px;
+}
+
+.contenedor-portfolio h2 {
+    font-size: 30pt;
+    text-align: center;
+    color: aliceblue;
+}
+
+.contenedor-proyectos {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container img {
+    border: 2px aliceblue solid;
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.container img:hover {
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.514);
+    transition: all 200ms;
+}
+
+.contenedor-portfolio p {
+    margin-top: 20px;
+    font-size: 14pt;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+/* ACERCA DE MI */
+
+.acerca {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 80px;
+}
+
+.acerca h2 {
+    font-size: 30pt;
+}
+
+.acerca p {
+    width: 80%;
+    margin-top: 20px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+/* FORMULARIO */
+
+.contenedor-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    border-bottom: 2px solid;
+    background-color: rgb(16, 55, 106);
+}
+
+.contenedor-form h2 {
+    font-size: 30pt;
+    color: aliceblue;
+}
+
+.contenedor-form label {
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.contenedor-form textarea {
+    height: 120px;
+}
+
+.contenedor-form button {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 250px;
+    background-color: aliceblue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer h4 {
+    font-size: 22pt;
+    color: black;
+}
+
+.footer p {
+    color: black;
+}
+
+.direc {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconos {
+    display: flex;
+}
+
+.footer a {
+    height: fit-content;
+    margin: 10px 20px 0px 20px;
+    padding: 5px;
+}
+
+.footer a img {
+    height: 40px;
+    width: 40px;
+}
+
+/* COPYRIGHT */
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    /* background-color: rgb(16, 55, 106); */
+    background-color: rgb(22, 28, 32);
+}
+
+.copy p {
+    margin-top: 15px;
+}

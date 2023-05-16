@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <div class="navegar">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand nombre" href="#">Isidro Molina</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sobre_mi">Acerca de mí</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- YO -->
+        <div class="contenedor ">
+            <div class="yo">
+                <img src="./img/yo2.JPG" alt="fotito" />
+                <h1>Isidro Molina</h1>
+                <p>Desarrollador Frontend React</p>
+            </div>
+        </div>
+
+        <!-- PORTFOLIO -->
+        <div class="contenedor-portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="container contenedor-proyectos">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <a href="https://eclectic-alpaca-c7336e.netlify.app/" target="_blank"><img class="m-1 img-fluid" src="./img/colorGame.png" alt="" /></a>
+                        <p>Juego interactivo donde tenes que adivinar que cuadrado tiene el color correspondiente al código RGB presentado en el titulo. </p>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <a href="https://lustrous-begonia-3b76a7.netlify.app/" target="_blank"><img class="m-1 img-fluid" src="./img/toDoList.png" alt="" /></a>
+                        <p>Lista de tareas simple. Podes agregar, editar y borrar tareas.</p>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <a href="https://joyful-capybara-5c582f.netlify.app/" target="_blank"><img class="m-1 img-fluid" src="./img/weatherChannel.png" alt="" /></a>
+                        <p>Página donde podes chequear el clima actual en cualquier país o ciudad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ACERCA DE MI -->
+        <div class="contenedor " id="sobre_mi">
+            <div class="acerca">
+                <h2>Acerca de Mí</h2>
+                <p>Me llamo Isidro Molina, tengo 21 años y vivo en Buenos Aires, Argentina. En 2022 hice un curso de Desarrollo Frontend React, el cual me dio conocimientos en HTML, CSS, SASS, JS y React. Hace poco termine el curso introductorio a la programación de Plataforma5 para reforzar JS. Actualmente sigo mejorando mis habilidades y tengo pensado inscribirme en el bootcamp que ofrecen. Busco encontrar oportunidades que me permitan expandir mis conocimientos.</p>
+            </div>
+        </div>
+
+        <!-- FORMULARIO -->
+        <div class="contenedor-form" id="contacto">
+            <h2>Contactame</h2>
+            <form class="row g-3" action="https://formspree.io/f/xnqybjzy" method="post">
+                <div class="col-12">
+                    <label for="formName" class="form-label">Nombre Completo</label>
+                    <input name="Nombre_Completo" type="text" class="form-control" id="formName" placeholder="Ingrese su nombre" />
+                </div>
+                <div class="col-md-12">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input name="Email" type="email" class="form-control" id="inputEmail4" placeholder="Ingrese su email" />
+                </div>
+                <div class="">
+                    <label for="floatingTextarea">Mensaje</label>
+                    <textarea name="Mensaje" class="form-control" id="floatingTextarea" placeholder="En que te puedo ayudar?"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="row-2">
+                        <div class="col-12 direc">
+                            <h4>Dirección</h4>
+                            <p>Buenos Aires, Argentina</p>
+                        </div>
+                        <div class="col-12 redes">
+                            <h4>Redes Sociales</h4>
+                            <div class="iconos">
+                                <a href="https://www.linkedin.com/in/isidro-molina/" target="_blank"><img src="./svg/linkedin.svg" alt="LinkedIn" /></a>
+                                <a href="https://github.com/Isidro-Molina?tab=repositories" target="_blank"><img src="./svg/github.svg" alt="GitHub" /></a>
+                                <a href="https://www.instagram.com/isidromolina26/?hl=es" target="_blank"><img src="./svg/instagram.svg" alt="Instagram" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="copy">
+            <p>Copyright © Isidro Molina 2023</p>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
